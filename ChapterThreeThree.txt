@@ -1,0 +1,34 @@
+1) String的所有父类如下：
+https://docs.oracle.com/javase/9/docs/api/java/lang/String.html
+
+public final class String
+extends Object
+implements Serializable, Comparable<String>, CharSequence
+
+
+2) Scanner类的所有父类如下：
+https://docs.oracle.com/javase/9/docs/api/java/util/Scanner.html
+
+public final class Scanner
+extends Object
+implements Iterator<String>, Closeable
+
+其中 Closeable 继承自 AutoCloseable
+
+3) ImageOutputStream 类的所有父类如下：
+https://docs.oracle.com/javase/9/docs/api/javax/imageio/stream/ImageOutputStream.html
+
+public interface ImageOutputStream
+extends ImageInputStream, DataOutput
+
+4) ImageInputStream类的所有父类如下：
+https://docs.oracle.com/javase/9/docs/api/javax/imageio/stream/ImageInputStream.html
+
+public interface ImageInputStream
+extends DataInput, Closeable
+
+5) Closeable类的所有父类如下：
+https://docs.oracle.com/javase/9/docs/api/java/io/Closeable.html
+
+public interface Closeable
+extends AutoCloseable
