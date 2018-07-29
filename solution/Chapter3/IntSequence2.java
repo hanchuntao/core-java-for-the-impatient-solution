@@ -3,17 +3,17 @@ package javaProject;
 import java.util.ArrayList;
 
 public interface IntSequence2 {
-    //接口类IntSequence的静态方法of()
-    public static IntSequence of(int... ints){
+    //接口类IntSequence2的静态方法of()
+    public static IntSequence2 of(int... ints){
         return new DigitSequence(ints);
     } 
     
-    //接口类IntSequence的静态方法constant()
-    public static IntSequence constant(int i){
+    //接口类IntSequence2的静态方法constant()
+    public static IntSequence2 constant(int i){
         return new InfiniteSequence(i);
     }
 
-    static class DigitSequence implements IntSequence {
+    static class DigitSequence implements IntSequence2 {
         private ArrayList<Integer> integers = new ArrayList<>();
         
         //内部类DigitSequence的构造方法
@@ -40,7 +40,7 @@ public interface IntSequence2 {
     }
     
     //内部类InfiniteSequence
-    static class InfiniteSequence implements IntSequence {
+    static class InfiniteSequence implements IntSequence2 {
         private int constant = 0;
         
       //内部类InfiniteSequence的构造方法
