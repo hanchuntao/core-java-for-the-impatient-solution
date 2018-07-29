@@ -1,2 +1,2 @@
 # core-java-for-the-impatient-solution
-the solutin for Core Java for the Impatient
+the solution for Core Java for the Impatient
